@@ -1,2 +1,2 @@
-# cpp-for-beginners
-unmanaged programming language 
+# C++ for Beginners
+unmanaged programming language
