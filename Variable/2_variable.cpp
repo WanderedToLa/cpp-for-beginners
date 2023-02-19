@@ -9,7 +9,7 @@ using namespace std;
 * 정수형: short , int , long , long long
 * long long 타입은 64bit로 정수 표시 -> 큰범위의 정수 표현 가능.
 * 부동 소수점: float , double , long double
-* float: 32bit, double , long double: 64bit
+* float: 32bit , double,long double: 64bit
 */
 
 string a;
