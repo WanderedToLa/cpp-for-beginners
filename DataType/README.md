@@ -33,3 +33,34 @@
       `range`: 2.2E-308 ~ 1.8E308
     - `long double`: 8byte   
       `range`: 2.2E-308 ~ 1.8E308
+
+## 문자열
+
+- 문자열을 위한 string 타입을 제공하는데 header string 파일을 포함해야함.
+
+  ```cpp
+  #include<string>
+  using namespace std;
+
+  int main(void)
+  {
+    string s1 = "Hello World";
+    return 0;
+  }
+  ```
+  문자열과 숫자를 합치기 위해서는 to_string() 사용
+
+  ```cpp
+  string str1 = "apple";
+  string str2 = str1 + " " + to_string(10) + "개";
+  ```
+
+  ## 기호 상수
+
+  - 변수 선언 앞에 const를 붙이면 값이 변경되지 않음을 의미
+
+  ```cpp
+  const double TAX_RATE = 0.25;
+  int income = 1000;
+  income = income - TAX_RATE * income;
+  ```
